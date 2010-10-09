@@ -1,6 +1,11 @@
 Installation instructions:
 
-* Install the dependencies: Scala 2.7, Sun Java JDK 6, libmysql-java
+* Install the dependencies: Scala 2.7, a JDK that supports Java 1.6,
+  and libmysql-java
+
+* Sun Java 6 and OpenJDK 1.6 are known to work.
+
+* Note that Scala 2.8 is currently known NOT to work
 
 * Uninstall gcj if it's installed as it seems to interfere with the
   Scala compiler. You can safely reinstall it after compiling Etherpad
